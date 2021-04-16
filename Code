@@ -1,0 +1,21 @@
+print("-- Welcome to the Game of Choices! --")
+print("-- Choose wisely! --"
+      "-"
+      "-")
+'''This game gives you different options that would take you through a different path. '''
+
+alpha = False
+
+while not alpha:
+ name = input("What is your name?: ")
+ if name.isalpha():
+  print("-- That's a great name, " + name)
+  alpha = True
+ else:
+  print('your name has to be all letters. Try again')
+
+print("")
+print("You have been abducted by the aliens!")
+print("You wake up alone in a room and see two buttons")
+print("One is red, one is blue")
+first_question = input("Which one do you press?: ")
