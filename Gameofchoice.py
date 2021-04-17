@@ -1,13 +1,14 @@
 '''This game gives you different options that would take you through a different path. '''
 
-alpha = False
 
-while not alpha:
- print("-- Welcome to the Game of Choices! --")
- print("-- Choose wisely! --"
+print("-- Welcome to the Game of Choices! --")
+print("-- Choose wisely! --"
           "-"
           "-")
+alpha = False
+while alpha == False:
  name = input("What is your name?: ")
+
  if name.isalpha():
   print("")
   print("-- That's a great name, " + name + "!")
@@ -15,7 +16,7 @@ while not alpha:
  else:
   print('your name has to be all letters. Try again')
 
-
+while alpha == True:
  print("")
  print("You have been abducted by the aliens!")
  print("You wake up alone in a room and see two buttons")
