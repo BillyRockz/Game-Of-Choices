@@ -97,4 +97,4 @@ while not alpha:
              else:
                  print("That is not an option...")
      else:
-         print("That is not an option...)
+         print("That is not an option...")
